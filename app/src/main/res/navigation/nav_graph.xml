@@ -33,11 +33,11 @@
         tools:layout="@layout/fragment_main" >
         <action
             android:id="@+id/action_mainFragment_to_notasFragment"
-            app:destination="@id/notasFragment" />
+            app:destination="@id/notaFragment" />
     </fragment>
     <fragment
-        android:id="@+id/notasFragment"
-        android:name="com.a24639_a25269.notas.NotasFragment"
+        android:id="@+id/notaFragment"
+        android:name="com.a24639_a25269.notas.NotaFragment"
         android:label="fragment_notas"
-        tools:layout="@layout/fragment_notas" />
+        tools:layout="@layout/fragment_nota" />
 </navigation>
