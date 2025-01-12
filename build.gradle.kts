@@ -2,4 +2,5 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.dagger.hilt.android") version "2.51.1" apply false
 }
