@@ -7,20 +7,31 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.navigation.fragment.findNavController
+import com.a24639_a25269.notas.databinding.FragmentRegisterBinding
 
 
 class RegisterFragment : Fragment() {
+
+
+    private var _binding: FragmentRegisterBinding? = null
+    private  val binging get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_register, container, false)
-        val txtRedirect = view.findViewById<TextView>(R.id.txtRedirect)
-        txtRedirect.setOnClickListener {
+
+        _binding = FragmentRegisterBinding.inflate(inflater, container, false)
+        binging.txtRedirect.setOnClickListener {
            findNavController().navigate(R.id.action_registerFragment_to_loginFragment)
         }
-        return view
+        return binging.root
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding=null
+
     }
 
 }
