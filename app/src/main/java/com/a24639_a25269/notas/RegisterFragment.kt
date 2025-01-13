@@ -22,7 +22,10 @@ class RegisterFragment : Fragment() {
     ): View? {
 
         _binding = FragmentRegisterBinding.inflate(inflater, container, false)
-        binging.txtRedirect.setOnClickListener {
+        binging.btnSignUp.setOnClickListener{
+            findNavController().navigate(R.id.action_registerFragment_to_mainFragment2)
+        }
+        binging.btnLogin.setOnClickListener {
            findNavController().navigate(R.id.action_registerFragment_to_loginFragment)
         }
         return binging.root
@@ -31,7 +34,6 @@ class RegisterFragment : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding=null
-
-    }
+ }
 
 }

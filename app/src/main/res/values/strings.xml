@@ -13,7 +13,7 @@
     <string name="txt_already_have_account">Já tem conta?</string>
     <string name="txt_login_header">Bem-vindo de volta!</string>
     <string name="txt_login_subheader">Faça login para aceder às suas notas</string>
-    <string name="txt_login">Login</string>
+    <string name="txt_login">Entrar</string>
     <string name="txt_error_message">%1$S*</string>
     <string name="note_title">Título</string>
     <string name="txt_title_hint">Escreva o seu título</string>
