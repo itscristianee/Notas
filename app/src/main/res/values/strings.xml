@@ -6,7 +6,7 @@
     <string name="txt_register_header">Nova Conta</string>
     <string name="txt_register_subheader">Por favor, forneça todas as informações necessárias</string>
     <string name="txt_email">Email</string>
-    <string name="txt_email_hint">crismaya34@gmail.com</string>
+    <string name="txt_email_hint">XXXXX@gmail.com</string>
     <string name="txt_password">Password</string>
     <string name="txt_password_hint">........</string>
     <string name="txt_sign_up">Registar</string>
